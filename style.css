@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    
+    
+    font-family: 'PT Serif', serif;
+   
+  
+}
+
+:root{
+
+    --soft-blue:hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --main-BG: hsl(217, 54%, 11%);
+    --card-BG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+}
+
+
+@media (min-width:500px) {
+}
+  body{
+  
+        background-color: var(--main-BG);
+        padding: 5.5rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+  }
+
+  .page{
+    
+    background-color: var(--card-BG);
+    padding: 1.25rem;
+   
+  
+
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+nav{
+    position: relative;
+
+}
+.img-main{
+   
+    hsl(215, 51%, 70%);
+    width: 100%;
+    
+   
+
+}
+nav .div{
+
+    position: absolute;
+    width: 95%;
+    height:94%;
+    background-color:hsl(215, 51%, 70%,50%); ;
+    left: 15px;
+    cursor: pointer;
+    display: none;
+  
+}
+.eye{
+        
+        position: absolute;
+        display: none;
+
+}
+.page nav:hover .eye{
+
+    display: block;
+}
+
+
+.page  nav:hover .div{
+
+    display: block;
+    
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+section{
+    
+    padding: 1rem;
+}
+
+h1{
+            display: flex;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+
+}
+
+p{
+    display: flex;
+    color: hsl(0, 0%, 50%); 
+    padding: 1rem;
+    
+
+}
+.page section:hover h1{
+
+    color: var(--Cyan);
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ul li {
+   padding:  0.5rem;
+  
+}
+.back{
+    border-bottom-radius: 50px;
+    border: 1px solid var(--line);
+}
+
+footer{
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    padding-left: 20px;
+}
+.avtar{
+   display: flex;
+   height:60px;
+   width:60px;
+   border:1px solid var(--White);
+   border-radius:50% ;
+   -webkit-border-radius:50% ;
+   -moz-border-radius:50% ;
+   -ms-border-radius:50% ;
+   -o-border-radius:50% ;
+  
+}
+
+h5{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.50rem;
+}
+id{
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+.page:hover id {
+
+   color: var(--Cyan);
+}
